@@ -1,0 +1,91 @@
+{
+    "navList": [
+        "Smart Traffic",
+        "How does it work",
+        "Device",
+        "Practical usage",
+        "Benefits",
+        "Contact us"
+    ],    
+    "greeting": {
+        "title": "AVTELMA SMARTTRAFFIC",
+        "text": "Traffic lights that work for you"
+    },    
+    "capabilities": [
+        {
+            "title": "How does it work"
+        },
+        {
+            "title": "Sensor",
+            "text": "The sensor installed on traffic light registers color change and calculates the colot-changing schedule"
+        },
+        {
+            "title": "BLE",
+            "text": "Using BLE, gathered data is send to every available device (drivers’ samrtphones)"
+        },
+        {
+            "title": "Car",
+            "text": "Drivers’ smartphones are receiving and spreading the data using internet"
+        },
+        {
+            "title": "Data channel",
+            "text": "Every driver regardless of their locations get the information about traffic light schedule on their routes"
+        }
+    ],  
+    "device": [
+        {
+            "title": "Device"
+        },
+        {
+            "text": "- Compact and almost invisible on the traffic light"
+        },
+        {
+            "text": "- Over a year of a life-span"
+        },
+        {
+            "text": "- Minimum of two devices for one traffic light"
+        }
+    ],
+    "practicalUsage": {
+        "title": "Practical usage",
+        "elements": [
+            {
+                "title": "View traffic lights in real time",
+                "text": "By including the information gathered from devices to modern age navigation software, you can view traffic lights on route with timers in real time"
+            },
+            {
+                "title": "Adjust road behavior",
+                "text": "The information can help the driver to adjust their road behavior according to the current traffic situation and\\or select alternative routes"
+            },
+            {
+                "title": "Stay in the green wave",
+                "text": "The solution integrated with navigation software allows the possibility to calculate the optimal driving speed in real time to spend as less time at traffic stop as possible"
+            }
+        ]
+    },  
+    "benefits": {
+        "title": "Benefits",
+        "greenLight": [
+            "- Less fuel consumption. By reducing the time vehicles idle at red light, it is possible to reduce urban fuel consumption for drivers",
+            "- Less wear and tear. The less vehicle stops and starts again – the less gearbox and other mechanical parts are weared",
+            "- Less traffic accidents. There are less probability to be in a road accident while moving constantly"
+        ],
+        "redLight": [
+            "- More fuel consumption. Standing on the red light is basically burning your fuel with no reason",
+            "- More wear and tear. The more you have to change your gear the less it will serve",
+            "- The more you have to stop and start again in the traffic or at intersections the more you are at risk of an accident"
+        ]
+    },
+    "feedbackForm": [
+        {
+            "title": "Contact us",
+            "text": "If you have additional questions or suggestions about out product, please do not hesitate to inquire by e-mail: our team of experts will answer all your questions"
+        },
+        {
+            "title": "Contact us",
+            "name": "Name",
+            "email": "Email",
+            "question": "Question"
+        }
+    ]    
+}

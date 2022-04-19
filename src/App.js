@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react'
+// routes
+import { BrowserRouter as Router } from 'react-router-dom'
+// components
+import Header from '@components/header/Header.js'
+import Content from '@components/content/Content.js'
+import Footer from '@components/footer/Footer.js'
+// anim on scroll
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+// style
+import styled from 'styled-components'
+import 'materialize-css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+
+    useEffect(() => {
+        // Animation in Scroll settings
+        Aos.init({
+            disable: true,
+            // disable: [ phone, tablet, mobile],
+            duration: 1000,
+            offset: 300,
+            delay: 0,
+            once: true,
+        });
+    }, [])
+
+    return (
+        <Router>
+            <AppStyled>
+                <Header />
+                <AppContentWrapper>
+                    <Content />
+                </AppContentWrapper>
+                <Footer />
+            </AppStyled>
+        </Router>
+    );
+
 }
 
-export default App;
+const AppStyled = styled.div`
+`
+
+const AppContentWrapper = styled.div`
+    min-height: 1100px;
+`
